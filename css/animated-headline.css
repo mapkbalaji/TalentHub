@@ -21,13 +21,22 @@ Primary style
   font-size: 2.4rem;
   font-weight: 700;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
 	.hero-headline {
-		font-size: 47px !important;
+		font-size: 28px !important;
 		color: #fff !important;
 		margin-bottom: 20px !important;
 		margin-left: 0px;
-		/* text-align: center; */
+		text-align: left !important;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.hero-headline {
+		font-size: 30px !important;
+		color: #fff !important;
+		margin-bottom: 20px !important;
+		margin-left: 17px;
+		text-align: left !important;
 	}
 }
 @media only screen and (min-width: 768px) {
