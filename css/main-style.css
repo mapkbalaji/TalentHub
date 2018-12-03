@@ -3583,10 +3583,12 @@ a:hover .lnk-icon-right {
 .color-third 	{color : #ffff00}
 .color-fourth 	{color : #280000}
 .color-fifth 	{color : #DE7C5A}
+.color-sixth {color: #0085ff}
 
 .border-color-white 	{border-color : #fff 	!important;}
 .border-color-green 	{border-color : #58ca7e !important;}
 .border-color-blue 		{border-color : #1784fb !important;}
+.border-color-bluematch 		{border-color : #0085ff !important;}
 .border-color-first 	{border-color : #FDFFFF !important;}
 .border-color-second 	{border-color : #B10F2E !important;}
 .border-color-third 	{border-color : #570000 !important;}
@@ -3608,6 +3610,7 @@ a:hover .lnk-icon-right {
 .fourth-border 	{border: 4px solid;}
 .fifth-border 	{border: 5px solid;}
 .sixth-border 	{border: 10px solid;}
+.seventh-border 	{border: 6.5px solid;}
 
 .colored-boxes {padding: 35px 35px 25px 35px}
 .colored-boxes p , .colored-boxes h3{z-index: 9999}
@@ -3690,12 +3693,12 @@ a:hover .lnk-icon-right {
     height: 100vh;
     width: 100%;
     z-index: 999999;
-    background: #58ca7e;
+    background: #000;
 }
 .la-ball-triangle-path {
     position: relative;
-	top: 50%;
-    left: 50%;
+	top: 45%;
+    left: 47%;
 }
 .la-ball-triangle-path > div {
     position: relative;
@@ -3855,6 +3858,12 @@ a:hover .lnk-icon-right {
 	.template-nav-toggle {
 		display: block;
 	}
+
+  .la-ball-triangle-path {
+      position: relative;
+  	top: 45%;
+      left: 45%;
+  }
 
 	.cover-text-lead-off {font-size : 22px}
 	.cover-text-lead-off span{
