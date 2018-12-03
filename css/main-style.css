@@ -62,6 +62,9 @@ body {
     width: 100%;
   }
 }
+.fontColorWhite {
+  font-color: white !important;
+}
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0 0 30px 0;
@@ -73,6 +76,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   margin-bottom: 30px;
+  text-align: justify;
 }
 
 h1 {
@@ -95,6 +99,10 @@ a {
 a:hover, a:focus, a:active {
   outline: none;
   text-decoration: none;
+}
+
+.centerText {
+  text-align: center;
 }
 
 .btn {
@@ -775,6 +783,9 @@ a:hover .lnk-icon-right {
 @media screen and (max-width: 768px) {
   .template-nav-style-2 {
     margin-top: 20px;
+  }
+  .centerText{
+    text-align: center;
   }
 }
 .template-nav-style-2 #navbar.navbar-center {
@@ -3584,6 +3595,7 @@ a:hover .lnk-icon-right {
 .color-fourth 	{color : #280000}
 .color-fifth 	{color : #DE7C5A}
 .color-sixth {color: #0085ff}
+.color-black {color: #000}
 
 .border-color-white 	{border-color : #fff 	!important;}
 .border-color-green 	{border-color : #58ca7e !important;}
@@ -3594,6 +3606,7 @@ a:hover .lnk-icon-right {
 .border-color-third 	{border-color : #570000 !important;}
 .border-color-fourth 	{border-color : #280000 !important;}
 .border-color-fifth 	{border-color : #DE7C5A !important;}
+.border-color-sixth 	{border-color : #000 !important;}
 
 .bg-color-green 	{background-color : #58ca7e}
 .bg-color-blue 		{background-color : #1784fb}
@@ -3602,6 +3615,8 @@ a:hover .lnk-icon-right {
 .bg-color-third 	{background-color : #570000}
 .bg-color-fourth 	{background-color : #280000}
 .bg-color-fifth 	{background-color : #DE7C5A}
+.bg-color-white 	{background-color : #fff !important}
+.bg-color-black 	{background-color : #000 !important}
 
 
 .first-border 	{border: 1px solid;}
@@ -3611,6 +3626,7 @@ a:hover .lnk-icon-right {
 .fifth-border 	{border: 5px solid;}
 .sixth-border 	{border: 10px solid;}
 .seventh-border 	{border: 6.5px solid;}
+.eight-border 	{border: 0.437em solid;}
 
 .colored-boxes {padding: 35px 35px 25px 35px}
 .colored-boxes p , .colored-boxes h3{z-index: 9999}
@@ -3856,7 +3872,7 @@ a:hover .lnk-icon-right {
 
 @media only screen and (max-width: 768px) {
 	.template-nav-toggle {
-		display: block;
+		display: none;
 	}
 
   .la-ball-triangle-path {
