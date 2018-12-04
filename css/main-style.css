@@ -674,6 +674,11 @@ a:hover .lnk-icon-right {
     margin-top: 20px;
   }
 }
+
+.logoimage{
+  margin-top: : 500px;
+  text-align: center;
+}
 .template-nav-style-1[data-offcanvass-position="template-offcanvass-left"] .template-nav-toggle,
 .template-nav-style-2[data-offcanvass-position="template-offcanvass-left"] .template-nav-toggle {
   right: auto;
@@ -706,6 +711,7 @@ a:hover .lnk-icon-right {
 @media screen and (max-width: 768px) {
   .template-nav-style-1 .template-logo, .template-nav-style-2 .template-logo {
     text-align: center;
+   margin-top: -28px;
   }
 }
 @media screen and (max-width: 768px) {
